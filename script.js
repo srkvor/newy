@@ -23,7 +23,7 @@ function newShell() {
   var shell = {};
   shell.x = (1*left);
   shell.y = 1;
-  shell.xoff = (0.01 + Math.random() * 0.007) * (left ? 1 : -1);
+  shell.xoff = (0.01 + Math.random() * 0.007) * (left ? 1 : -5);
   shell.yoff = 0.01 + Math.random() * 0.007;
   shell.size = Math.random() * 6 + 3;
   shell.color = colors[Math.floor(Math.random() * colors.length)];
